@@ -344,7 +344,7 @@ export const contact: ContactSection = {
     {
       type: ContactType.Email,
       text: 'gordon.r.depuy@gmail.com',
-      href: 'mailto:gordon.r.depuy@gmail.com',
+      href: `mailto:gordon.r.depuy@gmail.com`,
     },
     {
       type: ContactType.Location,
