@@ -1,11 +1,13 @@
 import {
   AcademicCapIcon,
   ArrowDownTrayIcon,
+  BookOpenIcon,
   BuildingOffice2Icon,
   CalendarIcon,
   FlagIcon,
   MapIcon,
   SparklesIcon,
+  TrophyIcon,
 } from '@heroicons/react/24/outline';
 
 import heroImage from '../images/header-background.webp';
@@ -68,11 +70,12 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a <strong className="text-stone-100">Remote QA Automation Engineer </strong>, seeking to bring my nearly 17
-        years of experience in software quality assurance to a new full time role.
+        I'm a dedicated <strong className="text-stone-100">Remote QA Automation Engineer </strong>, seeking to bring my
+        nearly 17 years of software testing experience to a new full time role.
       </p>
     </>
   ),
+  //TODO: fix resume download
   actions: [
     {
       href: '/assets/resume.pdf',
@@ -93,16 +96,18 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `I have an enthusiasm, commitment and excitement for software quality assurance and through my
+   diverse career have honed a unique automation focused testing skillset through leveraging both successes
+   and failures that validates functionality, reliability, performance, and scalability of applications 
+   across devices and platforms. The output of this effort results in end-user ready software that exceeds requirements
+   and is delivered on schedule.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Charleston, SC', Icon: MapIcon},
+    {label: 'Experience', text: '17 years', Icon: CalendarIcon},
+    {label: 'Education', text: 'Salisbury University', Icon: AcademicCapIcon},
+    {label: 'Degree', text: 'Bachelor Of Science', Icon: TrophyIcon},
+    {label: 'Study', text: 'Major: Business Minor: Info Science', Icon: BookOpenIcon},
+    {label: 'Interests', text: 'Software Test Automation, Fatherhood, Fishing, Guitars', Icon: SparklesIcon},
   ],
 };
 
@@ -110,6 +115,80 @@ export const aboutData: About = {
  * Skills section
  */
 export const skills: SkillGroup[] = [
+  {
+    name: 'Scripting',
+    skills: [
+      {
+        name: 'Typescript',
+        level: 7,
+      },
+      {
+        name: 'Shell Script',
+        level: 6,
+      },
+      {
+        name: 'Python',
+        level: 4,
+      },
+      {
+        name: 'SQL',
+        level: 6,
+      },
+      {
+        name: 'Bash',
+        level: 8,
+      },
+      {
+        name: 'Java',
+        level: 6,
+      },
+    ],
+  },
+  {
+    name: 'Tools',
+    skills: [
+      {
+        name: 'Playwright',
+        level: 10,
+      },
+      {
+        name: 'Cypress',
+        level: 8,
+      },
+      {
+        name: 'Selenium',
+        level: 8,
+      },
+      {
+        name: 'Penetration Testing | Tenable.io',
+        level: 7,
+      },
+      {
+        name: 'Performance Testing | Lighthouse CI, Saucelabs',
+        level: 7,
+      },
+      {
+        name: 'Load Testing | NeoLoad | flood.io | Element | Saucelabs',
+        level: 7,
+      },
+      {
+        name: 'Docker Containerization',
+        level: 8,
+      },
+      {
+        name: 'Git',
+        level: 8,
+      },
+      {
+        name: 'Gitlab CI/CD',
+        level: 7,
+      },
+      {
+        name: 'AWS',
+        level: 5,
+      },
+    ],
+  },
   {
     name: 'Spoken languages',
     skills: [
@@ -120,61 +199,6 @@ export const skills: SkillGroup[] = [
       {
         name: 'French',
         level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
-      },
-    ],
-  },
-  {
-    name: 'Frontend development',
-    skills: [
-      {
-        name: 'React',
-        level: 9,
-      },
-      {
-        name: 'Typescript',
-        level: 7,
-      },
-      {
-        name: 'GraphQL',
-        level: 6,
-      },
-    ],
-  },
-  {
-    name: 'Backend development',
-    skills: [
-      {
-        name: 'Node.js',
-        level: 8,
-      },
-      {
-        name: 'Rust',
-        level: 5,
-      },
-      {
-        name: 'Golang',
-        level: 4,
-      },
-    ],
-  },
-  {
-    name: 'Mobile development',
-    skills: [
-      {
-        name: 'React Native',
-        level: 9,
-      },
-      {
-        name: 'Flutter',
-        level: 4,
-      },
-      {
-        name: 'Swift',
-        level: 3,
       },
     ],
   },
