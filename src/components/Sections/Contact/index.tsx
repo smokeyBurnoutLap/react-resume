@@ -5,7 +5,6 @@ import {FC, memo} from 'react';
 import {contact, SectionId} from '../../../data/data';
 import {ContactType, ContactValue} from '../../../data/dataDef';
 import FacebookIcon from '../../Icon/FacebookIcon';
-
 import LinkedInIcon from '../../Icon/LinkedInIcon';
 import Section from '../../Layout/Section';
 import ContactForm from './ContactForm';
