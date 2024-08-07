@@ -106,7 +106,7 @@ export const aboutData: About = {
     {label: 'Experience', text: '17 years', Icon: CalendarIcon},
     {label: 'Education', text: 'Salisbury University', Icon: AcademicCapIcon},
     {label: 'Degree', text: 'Bachelor Of Science', Icon: TrophyIcon},
-    {label: 'Study', text: 'Major: Business Minor: Info Science', Icon: BookOpenIcon},
+    {label: 'Study', text: 'Major: Business Admin |  Minor: Info Science', Icon: BookOpenIcon},
     {label: 'Interests', text: 'Software Test Automation, Fatherhood, Fishing, Guitars', Icon: SparklesIcon},
   ],
 };
@@ -276,46 +276,61 @@ export const portfolioItems: PortfolioItem[] = [
   },
 ];
 
-/**
- * Resume section -- TODO: Standardize resume contact format or offer MDX
- */
-export const education: TimelineItem[] = [
-  {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
-  {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
-];
-
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'January 2021 - April 2024',
+    location: 'ArrayLive',
+    title: 'LEAD QA TEST AUTOMATION ENGINEER | REMOTE',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        <ul>
+          <li>
+            &#x2022; Architected entirely new test framework spanning functional, api,db, web socket and UI tests
+            spanning entire react.js application
+          </li>
+          <li>
+            &#x2022; Deployed rapid scale load testing with hundreds servers replicating thousands of unique sessions
+            per minute.
+          </li>
+          <li>
+            &#x2022; Docker containerized and Kubernetes hosted with scheduled daily and merge triggered pipeline
+            execution of tests
+          </li>
+          <li>&#x2022; Took test coverage from 0 to 90%</li>
+          <li>&#x2022; PagerDuty/On-call rotation to allow for 24/7 high severity issues</li>
+          <li>&#x2022; Onboarded and lead internal/external testing resources</li>
+          <li>&#x2022; Hosted bi-weekly user acceptance testing</li>
+          <li>&#x2022; Integrated gitlab pipeline with slack to quickly address test failures</li>
+          <li>&#x2022; Saucelabs test orchestrations, real device testing, test coverage, performance testing</li>
+          <li>&#x2022; Penetration testing that gained SOC2 compliance</li>
+          <li>&#x2022; Executed live load testing events utilizing 1500-2000 IOS devices</li>
+        </ul>
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'October 2019 - July 2020',
+    location: 'Bracari',
+    title: 'LEAD TEST AUTOMATION ENGINEER | REMOTE',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        <ul>
+          <li>
+            &#x2022; Oversaw and improved entirety of testing process through development of procedural and strategy
+            documentation
+          </li>
+          <li>&#x2022; Responsible for increasing growth of automated test suite by over 80%</li>
+          <li>&#x2022; Integrated test automation into ci/cd pipeline</li>
+          <li>&#x2022; Mentored and trained junior testers</li>
+        </ul>
       </p>
     ),
+  },
+  {
+    date: '',
+    location: '',
+    title: '',
+    content: <p></p>,
   },
 ];
 
