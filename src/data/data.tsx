@@ -8,7 +8,6 @@ import {
   SparklesIcon,
 } from '@heroicons/react/24/outline';
 
-import { PDFDownloadLink, Document, Page } from '@react-pdf/renderer';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
@@ -21,7 +20,7 @@ import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
-import profilepic from '../images/profilepic.jpg';
+import profilepic from '../images/profilepic.webp';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -40,8 +39,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'GordonDepuy.com | Portfolio',
+  description: 'Gordon De Puy Online Portfolio',
 };
 
 /**
@@ -76,7 +75,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: resume,
+      href: '/assets/resume.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,

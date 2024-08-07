@@ -10,7 +10,7 @@ declare module '*.webp' {
 }
 
 declare module '*.svg' {
-  const value: string;
+  const value: st
   export default value;
 }
 
