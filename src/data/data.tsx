@@ -327,10 +327,73 @@ export const experience: TimelineItem[] = [
     ),
   },
   {
-    date: '',
-    location: '',
-    title: '',
-    content: <p></p>,
+    date: 'November 2015 - October 2019',
+    location: 'Boeing',
+    title: 'SOFTWARE DEVELOPER IN TEST ( SDET ) III | REMOTE',
+    content: (
+      <p>
+        <ul>
+          <li>
+            &#x2022; Architected complex test automation suites across diverse projects via implementation of bash
+            scripts, selenium web driver and UFT
+          </li>
+          <li>
+            &#x2022; Engineered new approach to bypass limitations to test lab machines that had previously prevented
+            automated test deployment across a majority of projects
+          </li>
+        </ul>
+      </p>
+    ),
+  },
+  {
+    date: 'May 2011 - November 2015',
+    location: 'SPARC LLC | BOOZ ALLEN',
+    title: 'QUALITY ASSURANCE ENGINEER III | 75% REMOTE',
+    content: (
+      <p>
+        <ul>
+          <li>&#x2022; Designed and implemented Selenium Test Automation Framework in Java</li>
+          <li>&#x2022; Documented and maintained detailed business requirements and acceptance criteria</li>
+          <li>&#x2022; 508 complicance with JAWS screen reader</li>
+          <li>
+            &#x2022; Developed and maintained API testing suite in SoapUI for e-commerce and and order shipping platform
+            for USPS contract
+          </li>
+          <li>
+            &#x2022; Held Top Security Clearance to architect functional test automation suite in Selnium webdriver for
+            federal contract with VA
+          </li>
+        </ul>
+      </p>
+    ),
+  },
+  {
+    date: 'November 2009 - May 2011',
+    location: 'PEOPLEMATTER | SNAG',
+    title: 'November 2009 - May 2011',
+    content: (
+      <p>
+        <ul>
+          <li>&#x2022; Hired at origin of startup to architect entire quality assurance process</li>
+          <li>&#x2022; Responsible for budgeting, onboarding, managing team and entirety of testing processes</li>
+          <li>&#x2022; Managed additional offshore resources based in Argentina</li>
+        </ul>
+      </p>
+    ),
+  },
+  {
+    date: 'February 2007 - November 2009',
+    location: 'MOUNTAIRE',
+    title: 'February 2007 - November 2009',
+    content: (
+      <p>
+        <ul>
+          <li>&#x2022; Developed linux shell scripts according to the evolving needs of the product sales team</li>
+          <li>&#x2022; 24/7 database support management call rotation</li>
+          <li>&#x2022; Wrote extensive sql to develop oracle forms and reports</li>
+        </ul>
+      </p>
+    ),
   },
 ];
 
