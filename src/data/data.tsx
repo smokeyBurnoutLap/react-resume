@@ -316,19 +316,19 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+      name: 'Brandon Kirk',
+      text: `Gordon is an incredible QA Automation engineer. He knows his stuff and works quickly and efficiently. He is a constant advocate for good process and building good software that solve user needs. Plus, he's an incredible co-worker. He brings a lightness to any team discussion and his contributions are always positive. Any software development team would benefit from Gordon's presence. `,
+      // image:
     },
     {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
+      name: 'Matthew Cass',
+      text: 'He was my quality leader and a great tester, really smart, great attitude.',
+      // image:
     },
     {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+      name: 'Adam Kelso',
+      text: 'Gordon is an excellent engineer and amazing guy.',
+      // image:
     },
   ],
 };
@@ -339,17 +339,17 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: `Lets talk.`,
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'gordon.r.depuy@gmail.com',
+      href: 'mailto:gordon.r.depuy@gmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Charleston, SC',
+      href: 'https://www.google.com/maps/place/Charleston,+SC/@32.8231072,-80.1563331,11z/data=!3m1!4b1!4m6!3m5!1s0x88fe7a42dca82477:0x35faf7e0aee1ec6b!8m2!3d32.7833163!4d-79.9319664!16zL20vMGdrZ3A?entry=ttu',
     },
   ],
 };
