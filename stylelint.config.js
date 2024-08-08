@@ -12,5 +12,10 @@ module.exports = {
         ignoreAtRules: ['tailwind'],
       },
     ],
+    noSortAlphabetically: false,
+    ignoreCase: true,
+    callbacksLast: false,
+    shorthandLast: true,
+    reservedFirst: true,
   },
 };
