@@ -1,78 +1,51 @@
-import {FC, memo, useCallback, useMemo, useState} from 'react';
+import {useFormData} from 'herotofu-react';
 
-interface FormData {
-  name: string;
-  email: string;
-  message: string;
-}
-
-const ContactForm: FC = memo(() => {
-  const defaultData = useMemo(
-    () => ({
-      name: '',
-      email: '',
-      message: '',
-    }),
-    [],
+const ContactForm = () => {
+  // TODO - update to the correct endpoint
+  const {formState, getFormSubmitHandler} = useFormData(
+    'https://public.herotofu.com/v1/796bab30-5562-11ef-8375-1b1d42270640',
   );
-
-  const [data, setData] = useState<FormData>(defaultData);
-
-  const onChange = useCallback(
-    <T extends HTMLInputElement | HTMLTextAreaElement>(event: React.ChangeEvent<T>): void => {
-      const {name, value} = event.target;
-
-      const fieldData: Partial<FormData> = {[name]: value};
-
-      setData({...data, ...fieldData});
-    },
-    [data],
-  );
-
-  const handleSendMessage = useCallback(
-    async (event: React.FormEvent<HTMLFormElement>) => {
-      event.preventDefault();
-      /**
-       * This is a good starting point to wire up your form submission logic
-       * */
-      console.log('Data to send: ', data);
-    },
-    [data],
-  );
-
-  const inputClasses =
-    'bg-neutral-700 border-0 focus:border-0 focus:outline-none focus:ring-1 focus:ring-orange-600 rounded-md placeholder:text-neutral-400 placeholder:text-sm text-neutral-200 text-sm';
 
   return (
-    <form className="grid min-h-[320px] grid-cols-1 gap-y-4" method="POST" onSubmit={handleSendMessage}>
-      <input className={inputClasses} name="name" onChange={onChange} placeholder="Name" required type="text" />
-      <input
-        autoComplete="email"
-        className={inputClasses}
-        name="email"
-        onChange={onChange}
-        placeholder="Email"
-        required
-        type="email"
-      />
-      <textarea
-        className={inputClasses}
-        maxLength={250}
-        name="message"
-        onChange={onChange}
-        placeholder="Message"
-        required
-        rows={6}
-      />
-      <button
-        aria-label="Submit contact form"
-        className="w-max rounded-full border-2 border-orange-600 bg-stone-900 px-4 py-2 text-sm font-medium text-white shadow-md outline-none hover:bg-stone-800 focus:ring-2 focus:ring-orange-600 focus:ring-offset-2 focus:ring-offset-stone-800"
-        type="submit">
-        Send Message
-      </button>
-    </form>
+    <>
+      {!!formState.status && <div className="py-2">Current form status is: {formState.status}</div>}
+      <form onSubmit={getFormSubmitHandler()}>
+        <div className="pt-0 mb-3">
+          <input
+            type="text"
+            placeholder="Your name"
+            name="name"
+            className="focus:outline-none focus:ring relative w-full px-3 py-3 text-sm text-gray-600 placeholder-gray-400 bg-white border-0 rounded shadow outline-none"
+            required
+          />
+        </div>
+        <div className="pt-0 mb-3">
+          <input
+            type="email"
+            placeholder="Email"
+            name="email"
+            className="focus:outline-none focus:ring relative w-full px-3 py-3 text-sm text-gray-600 placeholder-gray-400 bg-white border-0 rounded shadow outline-none"
+            required
+          />
+        </div>
+        <div className="pt-0 mb-3">
+          <textarea
+            placeholder="Your message"
+            name="message"
+            className="focus:outline-none focus:ring relative w-full px-3 py-3 text-sm text-gray-600 placeholder-gray-400 bg-white border-0 rounded shadow outline-none"
+            required
+          />
+        </div>
+        <div className="pt-0 mb-3">
+          <button
+            className="active:bg-blue-600 hover:shadow-lg focus:outline-none px-6 py-3 mb-1 mr-1 text-sm font-bold text-white uppercase transition-all duration-150 ease-linear bg-blue-500 rounded shadow outline-none"
+            type="submit">
+            Send a message (simple)
+          </button>
+        </div>
+      </form>
+    </>
   );
-});
+};
 
-ContactForm.displayName = 'ContactForm';
 export default ContactForm;

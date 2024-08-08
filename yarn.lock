@@ -2404,6 +2404,11 @@ hasown@^2.0.0, hasown@^2.0.1, hasown@^2.0.2:
   dependencies:
     function-bind "^1.1.2"
 
+herotofu-react@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/herotofu-react/-/herotofu-react-1.0.6.tgz#c61b159b959769e4da89cd66ba82044e38964603"
+  integrity sha512-q1vNErrQVVoGxi5erpc5IMJ+QtIqiSDL2KF1G45uf69bsmxSKXyIKUFf/vVq9NaYAww4rNIL0TWfupSvb+MOEQ==
+
 hosted-git-info@^4.0.1:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-4.1.0.tgz#827b82867e9ff1c8d0c4d9d53880397d2c86d224"
