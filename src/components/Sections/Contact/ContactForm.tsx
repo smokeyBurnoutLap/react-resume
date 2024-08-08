@@ -1,5 +1,6 @@
 import {useFormData} from 'herotofu-react';
 
+// eslint-disable-next-line react-memo/require-memo
 const ContactForm = () => {
   // TODO - update to the correct endpoint
   const {formState, getFormSubmitHandler} = useFormData(
@@ -12,27 +13,27 @@ const ContactForm = () => {
       <form onSubmit={getFormSubmitHandler()}>
         <div className="pt-0 mb-3">
           <input
-            type="text"
-            placeholder="Your name"
-            name="name"
             className="focus:outline-none focus:ring relative w-full px-3 py-3 text-sm text-gray-600 placeholder-gray-400 bg-white border-0 rounded shadow outline-none"
+            name="name"
+            placeholder="Your name"
             required
+            type="text"
           />
         </div>
         <div className="pt-0 mb-3">
           <input
-            type="email"
-            placeholder="Email"
-            name="email"
             className="focus:outline-none focus:ring relative w-full px-3 py-3 text-sm text-gray-600 placeholder-gray-400 bg-white border-0 rounded shadow outline-none"
+            name="email"
+            placeholder="Email"
             required
+            type="email"
           />
         </div>
         <div className="pt-0 mb-3">
           <textarea
-            placeholder="Your message"
-            name="message"
             className="focus:outline-none focus:ring relative w-full px-3 py-3 text-sm text-gray-600 placeholder-gray-400 bg-white border-0 rounded shadow outline-none"
+            name="message"
+            placeholder="Your message"
             required
           />
         </div>
