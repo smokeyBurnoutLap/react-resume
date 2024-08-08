@@ -194,30 +194,28 @@ export const experience: TimelineItem[] = [
     location: 'ArrayLive',
     title: 'LEAD QA TEST AUTOMATION ENGINEER | REMOTE',
     content: (
-      <p>
-        <ul>
-          <li>
-            &#x2022; Architected entirely new test framework spanning functional, api,db, web socket and UI tests
-            spanning entire react.js application
-          </li>
-          <li>
-            &#x2022; Deployed rapid scale load testing with hundreds servers replicating thousands of unique sessions
-            per minute.
-          </li>
-          <li>
-            &#x2022; Docker containerized and Kubernetes hosted with scheduled daily and merge triggered pipeline
-            execution of tests
-          </li>
-          <li>&#x2022; Took test coverage from 0 to 90%</li>
-          <li>&#x2022; PagerDuty/On-call rotation to allow for 24/7 high severity issues</li>
-          <li>&#x2022; Onboarded and lead internal/external testing resources</li>
-          <li>&#x2022; Hosted bi-weekly user acceptance testing</li>
-          <li>&#x2022; Integrated gitlab pipeline with slack to quickly address test failures</li>
-          <li>&#x2022; Saucelabs test orchestrations, real device testing, test coverage, performance testing</li>
-          <li>&#x2022; Penetration testing that gained SOC2 compliance</li>
-          <li>&#x2022; Executed live load testing events utilizing 1500-2000 IOS devices</li>
-        </ul>
-      </p>
+      <ul>
+        <li>
+          &#x2022; Architected entirely new test framework spanning functional, api,db, web socket and UI tests spanning
+          entire react.js application
+        </li>
+        <li>
+          &#x2022; Deployed rapid scale load testing with hundreds servers replicating thousands of unique sessions per
+          minute.
+        </li>
+        <li>
+          &#x2022; Docker containerized and Kubernetes hosted with scheduled daily and merge triggered pipeline
+          execution of tests
+        </li>
+        <li>&#x2022; Took test coverage from 0 to 90%</li>
+        <li>&#x2022; PagerDuty/On-call rotation to allow for 24/7 high severity issues</li>
+        <li>&#x2022; Onboarded and lead internal/external testing resources</li>
+        <li>&#x2022; Hosted bi-weekly user acceptance testing</li>
+        <li>&#x2022; Integrated gitlab pipeline with slack to quickly address test failures</li>
+        <li>&#x2022; Saucelabs test orchestrations, real device testing, test coverage, performance testing</li>
+        <li>&#x2022; Penetration testing that gained SOC2 compliance</li>
+        <li>&#x2022; Executed live load testing events utilizing 1500-2000 IOS devices</li>
+      </ul>
     ),
   },
   {
@@ -225,17 +223,15 @@ export const experience: TimelineItem[] = [
     location: 'Bracari',
     title: 'LEAD TEST AUTOMATION ENGINEER | REMOTE',
     content: (
-      <p>
-        <ul>
-          <li>
-            &#x2022; Oversaw and improved entirety of testing process through development of procedural and strategy
-            documentation
-          </li>
-          <li>&#x2022; Responsible for increasing growth of automated test suite by over 80%</li>
-          <li>&#x2022; Integrated test automation into ci/cd pipeline</li>
-          <li>&#x2022; Mentored and trained junior testers</li>
-        </ul>
-      </p>
+      <ul>
+        <li>
+          &#x2022; Oversaw and improved entirety of testing process through development of procedural and strategy
+          documentation
+        </li>
+        <li>&#x2022; Responsible for increasing growth of automated test suite by over 80%</li>
+        <li>&#x2022; Integrated test automation into ci/cd pipeline</li>
+        <li>&#x2022; Mentored and trained junior testers</li>
+      </ul>
     ),
   },
   {
@@ -243,18 +239,16 @@ export const experience: TimelineItem[] = [
     location: 'Boeing',
     title: 'SOFTWARE DEVELOPER IN TEST ( SDET ) III | REMOTE',
     content: (
-      <p>
-        <ul>
-          <li>
-            &#x2022; Architected complex test automation suites across diverse projects via implementation of bash
-            scripts, selenium web driver and UFT
-          </li>
-          <li>
-            &#x2022; Engineered new approach to bypass limitations to test lab machines that had previously prevented
-            automated test deployment across a majority of projects
-          </li>
-        </ul>
-      </p>
+      <ul>
+        <li>
+          &#x2022; Architected complex test automation suites across diverse projects via implementation of bash
+          scripts, selenium web driver and UFT
+        </li>
+        <li>
+          &#x2022; Engineered new approach to bypass limitations to test lab machines that had previously prevented
+          automated test deployment across a majority of projects
+        </li>
+      </ul>
     ),
   },
   {
@@ -262,21 +256,19 @@ export const experience: TimelineItem[] = [
     location: 'SPARC LLC | BOOZ ALLEN',
     title: 'QUALITY ASSURANCE ENGINEER III | 75% REMOTE',
     content: (
-      <p>
-        <ul>
-          <li>&#x2022; Designed and implemented Selenium Test Automation Framework in Java</li>
-          <li>&#x2022; Documented and maintained detailed business requirements and acceptance criteria</li>
-          <li>&#x2022; 508 complicance with JAWS screen reader</li>
-          <li>
-            &#x2022; Developed and maintained API testing suite in SoapUI for e-commerce and and order shipping platform
-            for USPS contract
-          </li>
-          <li>
-            &#x2022; Held Top Security Clearance to architect functional test automation suite in Selnium webdriver for
-            federal contract with VA
-          </li>
-        </ul>
-      </p>
+      <ul>
+        <li>&#x2022; Designed and implemented Selenium Test Automation Framework in Java</li>
+        <li>&#x2022; Documented and maintained detailed business requirements and acceptance criteria</li>
+        <li>&#x2022; 508 complicance with JAWS screen reader</li>
+        <li>
+          &#x2022; Developed and maintained API testing suite in SoapUI for e-commerce and and order shipping platform
+          for USPS contract
+        </li>
+        <li>
+          &#x2022; Held Top Security Clearance to architect functional test automation suite in Selnium webdriver for
+          federal contract with VA
+        </li>
+      </ul>
     ),
   },
   {
@@ -284,13 +276,11 @@ export const experience: TimelineItem[] = [
     location: 'PEOPLEMATTER | SNAG',
     title: 'November 2009 - May 2011',
     content: (
-      <p>
-        <ul>
-          <li>&#x2022; Hired at origin of startup to architect entire quality assurance process</li>
-          <li>&#x2022; Responsible for budgeting, onboarding, managing team and entirety of testing processes</li>
-          <li>&#x2022; Managed additional offshore resources based in Argentina</li>
-        </ul>
-      </p>
+      <ul>
+        <li>&#x2022; Hired at origin of startup to architect entire quality assurance process</li>
+        <li>&#x2022; Responsible for budgeting, onboarding, managing team and entirety of testing processes</li>
+        <li>&#x2022; Managed additional offshore resources based in Argentina</li>
+      </ul>
     ),
   },
   {
@@ -298,13 +288,11 @@ export const experience: TimelineItem[] = [
     location: 'MOUNTAIRE',
     title: 'February 2007 - November 2009',
     content: (
-      <p>
-        <ul>
-          <li>&#x2022; Developed linux shell scripts according to the evolving needs of the product sales team</li>
-          <li>&#x2022; 24/7 database support management call rotation</li>
-          <li>&#x2022; Wrote extensive sql to develop oracle forms and reports</li>
-        </ul>
-      </p>
+      <ul>
+        <li>&#x2022; Developed linux shell scripts according to the evolving needs of the product sales team</li>
+        <li>&#x2022; 24/7 database support management call rotation</li>
+        <li>&#x2022; Wrote extensive sql to develop oracle forms and reports</li>
+      </ul>
     ),
   },
 ];
@@ -318,17 +306,17 @@ export const testimonial: TestimonialSection = {
     {
       name: 'Brandon Kirk',
       text: `Gordon is an incredible QA Automation engineer. He knows his stuff and works quickly and efficiently. He is a constant advocate for good process and building good software that solve user needs. Plus, he's an incredible co-worker. He brings a lightness to any team discussion and his contributions are always positive. Any software development team would benefit from Gordon's presence. `,
-      // image:
+      // image: '',
     },
     {
       name: 'Matthew Cass',
       text: 'He was my quality leader and a great tester, really smart, great attitude.',
-      // image:
+      // image: '',
     },
     {
       name: 'Adam Kelso',
       text: 'Gordon is an excellent engineer and amazing guy.',
-      // image:
+      // image: '',
     },
   ],
 };
