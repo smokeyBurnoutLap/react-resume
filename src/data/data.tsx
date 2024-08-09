@@ -62,7 +62,7 @@ export const heroData: Hero = {
   //TODO: fix resume download
   actions: [
     {
-      href: 'https://yellow-katalin-29.tiiny.site/',
+      href: 'https://amethyst-lydia-3.tiiny.site/gdepuy08August2024-2024-08-09T16-50-52.655Z.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -329,11 +329,6 @@ export const contact: ContactSection = {
   headerText: 'Get in touch.',
   description: `Lets talk.`,
   items: [
-    {
-      type: ContactType.Email,
-      text: 'gordon.r.depuy@gmail.com',
-      href: `mailto:gordon.r.depuy@gmail.com`,
-    },
     {
       type: ContactType.Location,
       text: 'Charleston, SC',
