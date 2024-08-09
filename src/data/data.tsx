@@ -62,7 +62,7 @@ export const heroData: Hero = {
   //TODO: fix resume download
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: 'https://yellow-katalin-29.tiiny.site/',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
