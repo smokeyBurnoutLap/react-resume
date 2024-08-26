@@ -62,7 +62,7 @@ export const heroData: Hero = {
   //TODO: fix resume download
   actions: [
     {
-      href: 'https://amethyst-lydia-3.tiiny.site/gdepuy08August2024-2024-08-09T16-50-52.655Z.pdf',
+      href: 'https://gdepuy-public-resume-08262004.tiiny.site/',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
