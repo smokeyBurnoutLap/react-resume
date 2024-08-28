@@ -124,6 +124,7 @@ const NavItem: FC<{
   return (
     <Link
       className={classNames(current ? activeClass : inactiveClass)}
+      data-testid={`${section}-header-button`}
       href={`/#${section}`}
       key={section}
       onClick={onClick}>
