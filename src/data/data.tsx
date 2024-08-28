@@ -62,7 +62,7 @@ export const heroData: Hero = {
   //TODO: fix resume download
   actions: [
     {
-      href: 'https://gdepuy-public-resume-08262004.tiiny.site/',
+      href: 'https://gdepuy-public-resume.tiiny.site/',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
